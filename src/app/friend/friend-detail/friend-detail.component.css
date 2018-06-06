@@ -1,0 +1,27 @@
+.friend-detail {
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+.friend-detail-bar {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.friend-detail-bar .title {
+  display: inline-block;
+  padding: 20px;
+}
+
+.friend-detail-bar .minimize-btn {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.friend-detail-bar .minimize-btn:hover {
+  color: #0366d6;
+}

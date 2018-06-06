@@ -1,0 +1,7 @@
+<div class="friend-detail focus">
+  <div class="friend-detail-bar">
+    <div class="title">{{friend.name}}</div>
+    <div class="minimize-btn" (click)="close()"><span octicon="chevron-down" width="16"></span></div>
+  </div>
+  <app-bookmark-list [bookmarks]="friend.bookmarks"></app-bookmark-list>
+</div>

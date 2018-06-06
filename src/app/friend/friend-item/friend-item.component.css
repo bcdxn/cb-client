@@ -1,0 +1,12 @@
+.friend-item {
+  background: inherit;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 200;
+  padding: 16px 0px 16px 20px;
+  transition: background-color .2s linear;
+}
+
+.friend-item:hover {
+  background-color: #efefef;
+}

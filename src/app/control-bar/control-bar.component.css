@@ -1,0 +1,11 @@
+.control-bar {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.control-bar .btn {
+  display: inline-block;
+  padding: 20px;
+}

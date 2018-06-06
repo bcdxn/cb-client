@@ -1,0 +1,36 @@
+.bookmark-item {
+  height: 100px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.bookmark-item .bookmark-img {
+  background: url(https://source.unsplash.com/random) 50% 50% no-repeat;
+  background-size: cover;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
+.bookmark-item .bookmark-meta {
+  box-sizing: border-box;
+  float: left;
+  height: 100px;
+  padding: 15px 115px 15px 15px;
+  width: 100%;
+}
+
+.bookmark-item .bookmark-meta .title {
+  color: #444;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+}
+
+.bookmark-item .bookmark-meta .url {
+  color: #666;
+  font-size: 13px;
+  font-weight: 200;
+  padding: 5px 0;
+}
