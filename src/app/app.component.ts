@@ -12,7 +12,7 @@ import { AppService } from 'src/app/app.service';
 export class MyAppComponent {
 
   viewState = 'FRIENDS_LIST';
-  friendList: Friend[] = [new Friend('fayefarrah'), new Friend('notalexvann'), new Friend('bdxn')];
+  friendList: Friend[] = [new Friend('fayefarrahfang'), new Friend('notalexvann'), new Friend('bdxn')];
   selectedFriend: Friend = this.friendList[0];
 
   private listWrapperClasses: string[] = ['list-wrapper', 'focus'];

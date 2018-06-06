@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { MyAppComponent } from './app.component';
 import { FriendItemComponent } from './friend/friend-item/friend-item.component';
@@ -8,8 +9,11 @@ import { FriendListComponent } from './friend/friend-list/friend-list.component'
 import { FriendDetailComponent } from './friend/friend-detail/friend-detail.component';
 import { BookmarkListComponent } from './bookmark/bookmark-list/bookmark-list.component';
 import { BookmarkItemComponent } from './bookmark/bookmark-item/bookmark-item.component';
+
 import { OcticonDirective } from './directives/octicon.directive';
 import { ClickStopPropagation } from './directives/click-stop-propagation.directive';
+
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -21,10 +25,12 @@ import { ClickStopPropagation } from './directives/click-stop-propagation.direct
     BookmarkListComponent,
     BookmarkItemComponent,
     OcticonDirective,
-    ClickStopPropagation
+    ClickStopPropagation,
+    FilterPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [MyAppComponent]

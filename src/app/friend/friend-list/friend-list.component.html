@@ -1,6 +1,9 @@
 <div>
+  <div class="filter-input">
+    <input [(ngModel)]="searchText" placeholder="Search">
+  </div>
   <ul>
-    <li *ngFor="let friend of friends">
+    <li *ngFor="let friend of friends | filter: searchText:'name'">
       <app-friend-item
         [friend]="friend">
       </app-friend-item>

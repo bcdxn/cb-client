@@ -1,11 +1,24 @@
 .control-bar {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 2px solid #ddd;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
 .control-bar .btn {
+  cursor: pointer;
   display: inline-block;
   padding: 20px;
+}
+
+.control-bar .btn:hover {
+  background: #eee;
+}
+
+.control-bar .btn.active {
+  background: inherit;
+  cursor: default;
+  display: inline-block;
+  padding: 20px 20px 16px 20px;
+  border-bottom: 4px solid #6c5ce7;
 }

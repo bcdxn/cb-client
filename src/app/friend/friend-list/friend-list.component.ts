@@ -10,6 +10,9 @@ import { AppService } from '../../app.service';
 export class FriendListComponent implements OnInit {
 
   @Input() friends:Friend[];
+  
+  nameFilter: string = '';
+  filteredFriends: Friend[];
 
   constructor(private appService: AppService) { }
 

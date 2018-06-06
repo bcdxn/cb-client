@@ -1,5 +1,6 @@
 .friend-item {
   background: inherit;
+  border-bottom: 1px solid #eee;
   cursor: pointer;
   font-size: 18px;
   font-weight: 200;

@@ -1,0 +1,23 @@
+.filter-input {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.filter-input input {
+  background: #eee;
+  border-radius: 6px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.filter-input input:focus{
+  background: #e0e0e0;
+  border: none;
+  outline: none;
+}
